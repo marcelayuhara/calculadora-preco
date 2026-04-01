@@ -22,7 +22,7 @@ const NumberInput = ({ label, hint, value, onChange, prefix = "R$", placeholder 
     <div style={{ display: "flex", alignItems: "center", border: "1.5px solid #e0e0e0", borderRadius: "8px", overflow: "hidden", background: "#fff" }}>
       <span style={{ padding: "10px 12px", background: "#f5f5f5", color: "#888", fontSize: "12px", borderRight: "1.5px solid #e0e0e0", fontFamily: "'DM Sans', sans-serif", whiteSpace: "nowrap" }}>{prefix}</span>
       <input type="number" min={0} value={value || ""} onChange={(e) => onChange(parseFloat(e.target.value) || 0)} placeholder={placeholder}
-        style={{ flex: 1, border: "none", outline: "none", padding: "10px 14px", fontSize: "15px", fontFamily: "'DM Mono', monospace", color: "#1a1a1a", background: "transparent" }} />
+        style={{ flex: 1, border: "none", outline: "none", padding: "10px 14px", fontSize: "16px", fontFamily: "'DM Mono', monospace", color: "#1a1a1a", background: "transparent", width: "100%", minWidth: 0 }} />
     </div>
   </div>
 );
