@@ -178,8 +178,6 @@ export default function Calculadora() {
 
   return (
     <div style={{ minHeight: "100vh", background: "#f4f3ef", fontFamily: "'DM Sans', sans-serif", display: "flex", flexDirection: "column", alignItems: "center", padding: "32px 16px 48px" }}>
-      <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
-
       {/* Header */}
       <div style={{ width: "100%", maxWidth: "520px", marginBottom: "28px", textAlign: "center" }}>
         <div style={{ display: "inline-flex", alignItems: "center", gap: "8px", background: "#1a3a2a", borderRadius: "100px", padding: "5px 14px", marginBottom: "18px" }}>
